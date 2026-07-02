@@ -87,7 +87,7 @@ App opens on **http://localhost:3000**.
 | `components/Chat/Message.js` | Single message bubble — different style for own vs. others' messages, plus system (join/leave) notices. |
 | `components/Chat/MessageInput.js` | Controlled input + send button, Enter-to-send. |
 
-## Notes on design choices (worth mentioning if this is for an interview/assignment)
+## Notes on design choices
 
 - **WebSocket + STOMP over Socket.io**: Socket.io is a Node.js library; since
   the backend is Spring Boot, STOMP-over-WebSocket is the standard
